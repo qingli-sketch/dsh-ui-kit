@@ -1,0 +1,18 @@
+# $DSH_HOME/cordis.patch.yml — 挂载示例
+#
+# 把本仓库的两个包复制到 $DSH_HOME/node_modules/ 后，
+# 在你自己的 cordis.patch.yml 的 insert 列表中加入以下两行：
+#
+#   - insert:
+#       - id: think-language
+#         name: 'dsh-think-language'
+#       - id: ui-custom
+#         name: 'dsh-ui-custom'
+#
+# 然后重启 dsh web 即可生效。完整文件示例：
+
+- insert:
+    - id: think-language
+      name: 'dsh-think-language'
+    - id: ui-custom
+      name: 'dsh-ui-custom'

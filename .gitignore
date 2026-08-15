@@ -1,0 +1,5 @@
+node_modules/
+*.log
+uwsp-settings.json
+.DS_Store
+Thumbs.db

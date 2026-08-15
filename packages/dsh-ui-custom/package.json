@@ -1,0 +1,24 @@
+{
+  "name": "dsh-ui-custom",
+  "description": "DSH web UI 定制插件：全屏壁纸背景（设置中可切换图片、透明度与比例，持久化到 $DSH_HOME/uwsp-settings.json）",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "web-ui",
+    "wallpaper",
+    "cordis"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "dsh-think-language",
+  "description": "Think-language preference: a Settings row to choose the model's think (reasoning) language, persisted to the user-global AGENTS.md instruction file",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "web-ui",
+    "settings",
+    "cordis"
+  ]
+}
